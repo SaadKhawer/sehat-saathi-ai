@@ -1,0 +1,29 @@
+# ── Dependencies ──
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# ── Environment Variables (NEVER upload these) ──
+.env
+frontend/.env
+backend/.env
+
+# ── Firebase Secret Key (NEVER upload this) ──
+backend/config/serviceAccountKey.json
+
+# ── Build Output ──
+dist/
+build/
+frontend/dist/
+
+# ── Logs ──
+*.log
+npm-debug.log*
+
+# ── OS Files ──
+.DS_Store
+Thumbs.db
+
+# ── Editor ──
+.vscode/
+.idea/
